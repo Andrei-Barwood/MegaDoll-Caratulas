@@ -1,5 +1,5 @@
 function setup() {
-  createCanvas(3000, 3000);
+  createCanvas(1080, 720);
   background("#D4BE93");
 
   // Dibujar el vaso de vino
@@ -26,5 +26,5 @@ function setup() {
 function draw() {
   // Dibujar el tallo del vaso de vino
   noStroke();
-  line(400, 500, 400, 700);
+  line(400, 500, 400);
 }

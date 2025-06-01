@@ -9,9 +9,9 @@ function draw() {
 
   let centerX = width / 2;
   let centerY = height / 2;
-  let radius = 150; // Radio general de la flor
-  let petals = 7; // Número de pétalos
-  let petalSize = 80; // Tamaño de los pétalos
+  let radius = 504; // Radio general de la flor
+  let petals = 12; // Número de pétalos
+  let petalSize = 480; // Tamaño de los pétalos
 
   for (let i = 0; i < petals; i++) {
     let angle = map(i, 0, petals, 0, 360); // Ángulo para cada pétalo
